@@ -79,6 +79,7 @@ function sprite() {
 function scripts() {
 	return src([
 		'app/js/*.js',
+		'app/js/*.min.js',
 		'!app/js/main.min.js'
 	])
 		.pipe(concat('main.min.js'))

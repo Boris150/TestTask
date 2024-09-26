@@ -79,6 +79,8 @@ body{
 	background: url('../images/dist/Lunch_hero.jpg');
 	box-shadow: inset 0 0 0 1000px var(--primary);
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 61%;
 }
 
 .container {
@@ -613,7 +615,7 @@ body{
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(51, 51, 51, 0.8) url("../images/dist/load.gif") center / 50px no-repeat;
+		background: rgba(51, 51, 51, 0.8) url("../images/load.gif") center / 50px no-repeat;
 		opacity: 0;
 		visibility: hidden;
 		transition: all .5s ease 0s;

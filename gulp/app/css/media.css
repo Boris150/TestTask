@@ -134,7 +134,7 @@
 
 	.header__item::before {
 		content: '';
-		background: url(../images/burgerNext.svg);
+		background: url(../images/dist/burgerNext.svg);
 		background-repeat: no-repeat;
 		position: absolute;
 		top: 25px;
